@@ -44,12 +44,9 @@
         </p>
 
         <div id="observablehq-plot-f9f6ad48" class="my-4"></div>
-        <p class="text-center mb-4">
-          Credit:
-          <a href="https://observablehq.com/d/e5deed393f3fa838"
-            >Viral Algorithm by Andy Kim</a
-          >
-        </p>
+        <div id="observablehq-viewof-search-fd9ddd23" class="my-4"></div>
+        <div id="observablehq-viewof-selectedChannel-fd9ddd23" class="my-4"></div>
+        <div id="observablehq-visualization-fd9ddd23" class="my-4"></div>
 
         <div class="interactive-wide mt-5">
           <section
@@ -69,6 +66,22 @@
         if (name === "plot")
           return new Inspector(
             document.querySelector("#observablehq-plot-f9f6ad48"),
+          );
+      });
+
+      import define2 from "https://api.observablehq.com/d/262926c390744f1a@111.js?v=4";
+      new Runtime().module(define2, (name) => {
+        if (name === "viewof search")
+          return new Inspector(
+            document.querySelector("#observablehq-viewof-search-fd9ddd23"),
+          );
+        if (name === "viewof selectedChannel")
+          return new Inspector(
+            document.querySelector("#observablehq-viewof-selectedChannel-fd9ddd23"),
+          );
+        if (name === "visualization")
+          return new Inspector(
+            document.querySelector("#observablehq-visualization-fd9ddd23"),
           );
       });
     </script>
