@@ -7,6 +7,7 @@ YouTube's recommendation algorithm plays a huge role in the content that billion
 This project aims to explore how videos gain traction and spread throughout YouTube's recommendation system. Using interactive visualizations and simulations informed by public YouTube datasets, we will show how viewer engagement, watch time, recommendation feedback loops, key words, hashtags, etc. play a role in the initial differences that can lead to dramatically different outcomes in viewership.
 
 ## Datasets
-
+Pulled from:
+- https://www.kaggle.com/datasets/datasnaek/youtube-new?resource=download&select=USvideos.csv
 - `USvideos01.csv` - YouTube trending video statistics dataset
 - `US_category_id.json` - Category ID to name mapping for US videos
