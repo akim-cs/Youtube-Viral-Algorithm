@@ -71,11 +71,11 @@
           peak viewership, or is video success independent of upload volume?
         </p>
 
-        <div id="observablehq-viewof-search-7680eaf4" class="my-4"></div>
-        <div id="observablehq-viewof-selectedCategory-7680eaf4" class="my-4"></div>
-        <div id="observablehq-viewof-selectedChannel-7680eaf4" class="my-4"></div>
-        <div id="observablehq-visualization1-7680eaf4" class="my-4"></div>
-        <div id="observablehq-viewof-resetZoom1-7680eaf4" class="my-4"></div>
+        <div id="observablehq-viewof-search-4a4403f1" class="my-4"></div>
+        <div id="observablehq-viewof-selectedCategory-4a4403f1" class="my-4"></div>
+        <div id="observablehq-viewof-selectedChannel-4a4403f1" class="my-4"></div>
+        <div id="observablehq-visualization1-4a4403f1" class="my-4"></div>
+        <div id="observablehq-viewof-resetZoom1-4a4403f1" class="my-4"></div>
 
         <div class="small text-muted mt-2 mb-4">
           The scatter plot reveals no clear positive correlation between posting frequency and peak
@@ -85,8 +85,8 @@
           upload volume in determining viral success.
         </div>
 
-        <div id="observablehq-visualization2-7680eaf4" class="my-4"></div>
-        <div id="observablehq-viewof-resetZoom2-7680eaf4" class="my-4"></div>
+        <div id="observablehq-visualization2-4a4403f1" class="my-4"></div>
+        <div id="observablehq-viewof-resetZoom2-4a4403f1" class="my-4"></div>
 
         <div class="interactive-wide mt-5">
           <section
@@ -109,15 +109,15 @@
           );
       });
 
-      import define2 from "https://api.observablehq.com/d/262926c390744f1a@274.js?v=4";
+      import define2 from "https://api.observablehq.com/d/262926c390744f1a@278.js?v=4";
       new Runtime().module(define2, name => {
-        if (name === "viewof search") return new Inspector(document.querySelector("#observablehq-viewof-search-7680eaf4"));
-        if (name === "viewof selectedCategory") return new Inspector(document.querySelector("#observablehq-viewof-selectedCategory-7680eaf4"));
-        if (name === "viewof selectedChannel") return new Inspector(document.querySelector("#observablehq-viewof-selectedChannel-7680eaf4"));
-        if (name === "visualization1") return new Inspector(document.querySelector("#observablehq-visualization1-7680eaf4"));
-        if (name === "viewof resetZoom1") return new Inspector(document.querySelector("#observablehq-viewof-resetZoom1-7680eaf4"));
-        if (name === "visualization2") return new Inspector(document.querySelector("#observablehq-visualization2-7680eaf4"));
-        if (name === "viewof resetZoom2") return new Inspector(document.querySelector("#observablehq-viewof-resetZoom2-7680eaf4"));
+        if (name === "viewof search") return new Inspector(document.querySelector("#observablehq-viewof-search-4a4403f1"));
+        if (name === "viewof selectedCategory") return new Inspector(document.querySelector("#observablehq-viewof-selectedCategory-4a4403f1"));
+        if (name === "viewof selectedChannel") return new Inspector(document.querySelector("#observablehq-viewof-selectedChannel-4a4403f1"));
+        if (name === "visualization1") return new Inspector(document.querySelector("#observablehq-visualization1-4a4403f1"));
+        if (name === "viewof resetZoom1") return new Inspector(document.querySelector("#observablehq-viewof-resetZoom1-4a4403f1"));
+        if (name === "visualization2") return new Inspector(document.querySelector("#observablehq-visualization2-4a4403f1"));
+        if (name === "viewof resetZoom2") return new Inspector(document.querySelector("#observablehq-viewof-resetZoom2-4a4403f1"));
         return ["filteredData","engagementData"].includes(name);
       });
     </script>
