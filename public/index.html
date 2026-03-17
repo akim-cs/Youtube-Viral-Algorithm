@@ -37,12 +37,53 @@
           or some combination of other factors? We will explore these questions.
         </p>
 
+        <!-- FIGURE 1: Days from Published to Trending -->
+        <h3 class="mt-5 mb-3">Understanding Video Timing: Days from Published to Trending</h3>
+        <p class="mb-3">
+          This timeline visualization displays the distribution of time elapsed between a video's
+          publication date and when it appeared on YouTube's trending page. Each mark represents
+          an individual trending video from the dataset, positioned according to how many days
+          passed before achieving trending status. The distribution reveals critical patterns about
+          YouTube's recommendation velocity—whether viral success tends to be immediate or can
+          develop over extended periods—and helps identify outliers that buck typical trending timelines.
+        </p>
+
         <div id="observablehq-plot-f9f6ad48" class="my-4"></div>
+
+        <div class="small text-muted mt-2 mb-4">
+          The data shows a strong concentration of videos trending within the first 40 days after
+          publication, suggesting YouTube's algorithm prioritizes recent content. However, the
+          presence of videos trending 200+ days after publication indicates that "slow-burn" viral
+          success remains possible, though significantly less common than immediate viral growth.
+          Upon further inspection, we find that videos trending after 200 days often belong to categories
+          such as educational content or commercials.
+        </div>
+
+        <!-- FIGURE 2: Posting Frequency vs. View Count -->
+        <h3 class="mt-5 mb-3">Posting Frequency vs. View Count Relationship</h3>
+        <p class="mb-3">
+          This scatter plot examines whether the frequency of video uploads correlates with maximum
+          viewership success. The x-axis represents the number of videos a channel published during
+          the dataset (November 2017 - June 2018), displayed on a logarithmic scale to accommodate
+          the wide range from single-upload channels to prolific daily posters. The y-axis shows each
+          channel's highest-performing video view count, also logarithmically scaled. This visualization
+          tests a fundamental content creator hypothesis: does posting more frequently lead to higher
+          peak viewership, or is video success independent of upload volume?
+        </p>
+
         <div id="observablehq-viewof-search-fdf8cf7f" class="my-4"></div>
         <div id="observablehq-viewof-selectedCategory-fdf8cf7f" class="my-4"></div>
         <div id="observablehq-viewof-selectedChannel-fdf8cf7f" class="my-4"></div>
         <div id="observablehq-visualization-fdf8cf7f" class="my-4"></div>
         <div id="observablehq-viewof-resetZoom-fdf8cf7f" class="my-4"></div>
+
+        <div class="small text-muted mt-2 mb-4">
+          The scatter plot reveals no clear positive correlation between posting frequency and peak
+          viewership—channels across all upload frequencies achieve both high and low view counts,
+          with significant vertical spread at every frequency level. This pattern suggests that
+          content quality, timing, and algorithmic factors may play more decisive roles than sheer
+          upload volume in determining viral success.
+        </div>
 
         <div class="interactive-wide mt-5">
           <section
