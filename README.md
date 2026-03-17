@@ -9,7 +9,7 @@ This project aims to explore how videos gain traction and spread throughout YouT
 # Observable Visualizations
 
 - Figure 1 https://observablehq.com/d/e5deed393f3fa838
-- Figure 2 https://observablehq.com/d/262926c390744f1a 
+- Figure 2 & 3 https://observablehq.com/d/262926c390744f1a
 
 
 ## Datasets
