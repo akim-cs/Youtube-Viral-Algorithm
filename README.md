@@ -17,3 +17,6 @@ Pulled from:
 - https://www.kaggle.com/datasets/datasnaek/youtube-new?resource=download&select=USvideos.csv
 - `USvideos01.csv` - YouTube trending video statistics dataset
 - `US_category_id.json` - Category ID to name mapping for US videos
+
+
+claude ai assist for vega-lite
